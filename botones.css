@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+
+.productos {
+	background-color:#039;
+	color:#FFF;
+	padding:5px;
+	border-radius:10px;
+	width:180px;
+}
+
+.productos2 {
+	background-color:#930;
+
+	color:#FFF;
+	padding:5px;
+	border-radius:10px;
+	width:180px;
+}
+#btn_poner_cero {
+	display:block;
+	width:180px;
+	height:20px;
+	background-color:#039;
+	color:#FFF;
+	border-radius:10px;
+	text-decoration:none;
+	text-align:center;
+	padding-top:5px;
+}
+#porprodu {
+	display:block;
+	width:60px;
+	height:30px;
+	background-color:#039;
+	color:#FFF;
+	border-radius:10px;
+	text-decoration:none;
+	text-align:center;
+	padding-top:5px;
+	cursor:pointer;
+}
+.botones_ver_compra {
+	display:inline-block;
+	background-color:#00C;
+	color:#FFF;	
+	border-radius:5px;
+	height:30px;
+	width:80px;
+	padding-top: 8px;
+	text-align:center;
+	background: linear-gradient(to right, #00B2B2, #0859AA);
+	text-decoration: none;
+}
+#boton_volver_ver_compra {
+	display:inline-block;
+	background-color:#00C;
+	color:#FFF;	
+	border-radius:5px;
+	height:30px;
+	width:240px;
+	padding-top: 8px;
+	text-align:center;
+	background: linear-gradient(to right, #00B2B2, #0859AA);
+	text-decoration: none;
+	margin-top: 15px;
+}
+#cmdcerrar {
+	color:#FFF;	
+	border-radius:5px;
+	height:30px;
+	width:150px;	
+	text-align:center;
+	background: linear-gradient(to right, #00B2B2, #0859AA);
+	border: none;
+}

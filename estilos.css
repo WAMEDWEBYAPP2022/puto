@@ -1,0 +1,380 @@
+@charset "utf-8";
+body {
+	/*background-color:#E8E8E8; */
+	
+	
+	background-color:#FFF;   /* fondo blanco de pantalla */
+/*	background-color: #000000;   /*  Fondo negro de pantalla */
+	
+}
+
+
+#menu_jje {
+    background-color:#39F;    /* Color de barra superior CELESTE */  
+	                            /* para catalogo_jje es el color de la barra superior */
+								/* para catalogo2021 es el color de la barra de rubros */
+	
+	/* background-color:#F00;    /* Color de barra superior ROJO */	
+	                             /* color del banner de rubros para catalogo2021 */
+	
+	height:100px;   /*  Altura del banner superior */
+                      /*  Altura del banner de rubros para catalogo2021 */
+	
+	/* height:150px;   /*  Altura del banner superior PARA catalogo_alb LUCIANA */
+	
+	border-radius:25px;
+}
+
+#menu {
+    /*background-color:#39F;    /* Color de barra superior CELESTE */  
+	                            /* para catalogo_jje es el color de la barra superior */
+								/* para catalogo2021 es el color de la barra de rubros */
+	
+	/* background-color:#F00;    /* Color de barra superior ROJO */	
+	                             /* color del banner de rubros para catalogo2021 */
+	
+	/*height:100px;   /*  Altura del banner superior */
+                      /*  Altura del banner de rubros para catalogo2021 */
+	
+	/* height:150px;   /*  Altura del banner superior PARA catalogo_alb LUCIANA */
+	
+	border-radius:25px;
+}
+
+
+#texto {
+	font-size:18px;
+}
+#descrip h1 {
+	font-size:20px;
+	font-weight:bold;
+}
+	
+.caja_producto {
+	border-bottom-style:solid;
+	border-bottom-color:#333;
+	border-bottom-width:3px;
+	padding-bottom:8px;
+
+}
+
+
+@media (max-width: 992px) {
+	#menu {
+		/*height:50px;  NO GENERA CAMBIOS EN NINGUN CATALOGO */
+
+	}
+	body {	
+		padding-top:2px;  /* NO GENERA CAMBIOS EN NINGUN CAALOGO */
+	}
+	#navbar-1 {
+	/*	background-color:#39F;    /* Color de barra superior CELESTE */  
+                                  /* Color de barra rubros en catalogo2021 */
+	}
+}
+
+.fila1 {
+	/*text-align:center;*/   
+	/*background-color:#F00;    /* Color de barra superior ROJO */
+	background-color:#39F;*/    /* Color de barra superior CELESTE 
+	
+	/*height:120px; /*para alberto 125 */
+	height:60px; 
+	
+	/*border-radius:25px;*/
+}
+.fila1 a {
+	color:#FFF;
+}
+.fila2 {
+	text-align:center;
+	border-color:#666;
+	border-width:1px;
+	border-style:solid;
+	border-radius:5px;
+	box-shadow: 5px 5px #333;
+	
+
+    /*  Fondo de las filas de productos en catalogo_jje
+	/*background-color: #FFFFFF;      /* Fondo blanco */
+	background-color:#538ED4;    /* Fondo azul LUCIANA */
+    /* background-color: #FF9;     /*  Fondo amarillo */
+} 
+
+
+
+.carrito {
+	/*background-color:#FF9;
+	height:30px;*/
+}
+.precio {
+	height:30px;
+}
+
+.caja_precio {
+	border-radius:10px;
+	background: linear-gradient(to right, #7D0101, #0859AA); 
+	padding:20px;
+	color:#FFF;
+}
+
+
+
+.caja_precio_noimptk {
+	border-radius:10px;
+	background: linear-gradient(to bottom, #3399FF, #0859AA); 
+	/* background: linear-gradient(to right, #7D0101, #0859AA); /* reyesdeloeste */
+	padding:20px;
+	color:#FFF;  /*  Color de la fuente */
+	/*	color: #000;  /*  Color de la fuente reyesdeloeste*/
+}
+
+
+
+.foto {
+	/*height:300px;*/
+}
+#logo {
+	display:inline;
+}
+@media (max-width: 992px) {
+	#logo {
+		width:100px;	
+	}
+}
+#boton_buscar {
+	display:inline;
+}
+#titulo_alberto {
+	margin:0px;
+	padding:0px;
+	color:#FFF;
+	text-shadow: 2px 2px 5px #333;
+	font-size:18px;
+}
+#datos_alberto p {
+	color:#FFF; 
+	font-size:16px;
+	text-shadow: 2px 2px 5px #333;
+	
+}
+@media (max-width: 992px) {
+	#datos_alberto p {
+		margin:0px;
+	}
+}
+
+.foto_borde {
+	border-style:solid;
+	border-color:#000;
+	border-width:6px;
+
+	border-color:#666;
+	border-radius:25px;
+	box-shadow: 5px 5px #666;
+}
+
+.elipse {
+	width:170px;
+	height:64px;
+	border-radius:50%;
+	background-color:#000;
+	border-width: 4px;
+	border-style:solid;
+	border-color:#FFF;
+	padding-top:18px;
+	color:#FFF;
+	
+}
+
+.rectangulo {
+	border-radius:5px;
+	background-color:#000;
+	border-width: 4px;
+	border-style:solid;
+	border-color:#FFF;
+	color:#FFF;
+}
+
+.rectangulo2 {
+	border-radius:5px;
+	background-color:#000;
+	border-width: 4px;
+	border-style:solid;
+	border-color:#333;
+	color:#FFF;
+}
+
+
+.outter{
+   height:25px;
+   width:500px;
+   border:solid 1px #000;
+}
+
+.inner{
+   height:25px;
+   width:120;
+   border-right:solid 1px #000;
+   background-color:lightblue; 
+}
+
+/*Estilos de la forma de pago */
+#candado {
+	display: inline;
+}
+#leyenda_pago_seguro {
+	display:inline;
+}
+#logo_mp {
+	display: inline;
+}
+#leyendas_f_pago h1 {
+	font-size:18px;
+}
+#cuadro_f_pago {
+	border-width:1px;
+	border-color:#000;
+	border-radius:5px;
+	border-style:solid;
+	padding:7px;
+	background-color:#FFF;
+}
+.foto_prod {
+	position:relative;
+	z-index:0;
+	width:50%
+}
+.foto_prod img {
+	position:relative;
+	z-index:0;
+}
+
+.cartel_agotado {
+	position:absolute;
+	top:0; left:0;
+	z-index:1;
+	width:100%
+
+}
+.cartel_agotado img {
+	position:relative;
+	top:0; left:0;
+	z-index:1;
+}
+
+
+
+
+
+
+
+#boton_comprar {
+	
+	background-color:#00C;
+	 color:#FFF;   /* Normal */
+	/*	color:#000;    /*  reyesdeloeste */
+	margin-left:0px;
+	margin-top: 0px;
+	border-radius:5px;
+	height:40px;
+	width:80px;
+	text-align:center;
+	background: linear-gradient(to right, #00B2B2, #0859AA);   /* Normal, celeste degradee */
+	/*    background: linear-gradient(to right, #FF0, #FF0);   /* reyesdeloeste */
+}
+
+
+#boton_volver {
+	display:inline-block;
+	background-color:#00C;
+	 color:#FFF;	 
+	/*    color:#000;    /*  reyesdeloeste */
+	border-radius:5px;
+	height:40px;
+	width:80px;
+	padding-top: 8px;
+	text-align:center;
+	background: linear-gradient(to right, #00B2B2, #0859AA); 
+	/*    background: linear-gradient(to right, #FF0, #FF0);   /* reyesdeloeste */
+
+}
+
+
+
+.boton_superior {
+	display:block;
+	background-color:#00C;
+	color:#FFF;
+	margin-top:7px;
+	margin-left:15px;
+	border-radius:5px;
+	height:25px;
+	width:130px;
+	text-align:center;
+	background: linear-gradient(to right, #00B2B2, #0859AA);
+}
+
+	
+
+
+
+
+
+#boton_ver_compra {
+	display:block;
+	background-color:#00C;
+	color:#FFF;
+	margin-top:7px;
+	margin-left:15px;
+	border-radius:5px;
+	height:25px;
+	width:130px;
+	text-align:center;
+	background: linear-gradient(to bottom, #2E5A81, #D3E1EC);
+
+}
+	
+#boton_general {
+	display:block;
+	background-color:#00C;
+	color:#FFF;
+	margin-top:7px;
+	margin-left:15px;
+	border-radius:5px;
+	height:25px;
+	width:130px;
+	text-align:center;
+	background: linear-gradient(to bottom, #2E5A81, #D3E1EC);
+
+}
+#boton_novedades {
+	display:block;
+	background-color:#00C;
+	color:#FFF;
+	margin-top:7px;
+	margin-left:15px;
+	border-radius:5px;
+	height:25px;
+	width:130px;
+	text-align:center;
+	background: linear-gradient(to bottom, #2E5A81, #D3E1EC);
+
+}
+	
+#boton_excel {
+	display:block;
+	background-color:#00C;
+	color:#FFF;
+	margin-top:7px;
+	margin-left:15px;
+	border-radius:5px;
+	height:25px;
+	width:130px;
+	text-align:center;
+	background: linear-gradient(to bottom, #2E5A81, #D3E1EC);
+
+}
+#boton_menu {
+	background-color:#6FF;
+}
